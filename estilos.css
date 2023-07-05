@@ -1,0 +1,95 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/9c/15/0d/9c150d9d9628dc37fd77917ae4550204.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.header {
+  text-align: center;
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkblue;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.menu li a:hover {
+  color: white;
+}
+
+.table-dark {
+  background-color: #343a40;
+  color: #fff;
+  max-height: 400px; /* Altura máxima de la tabla */
+  overflow-y: auto; /* Activar el desplazamiento vertical */
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.menu li a:hover {
+  color: orangered;
+}
+
+.table-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  color: #777;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto; /* Mover el footer al fondo */
+  margin-top: 20px; /* Espacio entre el formulario y el footer */
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Espacio entre el formulario y el footer */
+}
+
+.content-container {
+  max-height: calc(100vh - 300px); /* Altura máxima del contenedor */
+  overflow-y: auto; /* Activar el desplazamiento vertical */
+}
